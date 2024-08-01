@@ -29,7 +29,7 @@ print(resta(5, 2))
 """
 
 
-def multplicacion(num=None):
+def multiplicacion(num=None):
     if num is None:
         print("Por favor, introducí un número")
     else:
@@ -38,4 +38,4 @@ def multplicacion(num=None):
             print(f'{num} x {i} = {i * num}')
 
 
-multplicacion(10)
+multiplicacion(10)
