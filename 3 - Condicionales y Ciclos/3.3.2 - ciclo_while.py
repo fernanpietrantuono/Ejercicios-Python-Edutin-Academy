@@ -2,7 +2,7 @@
 cont = 0
 print("Calculadora del índice de masa corporal (IMC)\n")
 while cont != 2:
-    cont = int(input("¿Querés seguir calculando el IMC? 1: Sí y 2:No \n"))
+    cont = int(input("¿Querés seguir calculando el IMC? \n1 - Sí \n2 - No \n"))
     if cont == 1:
         altura = float(input("Ingresá tu altura en metros: "))
         peso = float(input("Ingresá tu peso en kg: "))
